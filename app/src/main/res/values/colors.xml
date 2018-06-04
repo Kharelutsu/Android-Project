@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#263547</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorRed">#CD3951</color>
+    <color name="greenBtnBackgrn">#b2f51f</color>
+    <color name="skyBlue">#2fe1e1</color>
+    <color name="darkSkyBlue">#02bcbc</color>
+    <color name="white">#fff</color>
+    <color name="logoutColor">#fac85a</color>
+
+</resources>

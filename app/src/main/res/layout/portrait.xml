@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout tools:context="com.example.utsabkharel.thingsee.MainActivity"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/bt_gradient"
+    android:id="@+id/activity_main"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListView
+        android:id="@+id/mylist"
+        android:layout_width="350dp"
+        android:layout_height="208dp"
+        android:layout_above="@+id/mybutton"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/mybutton"
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/calcbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="-260dp"
+        android:background="@color/greenBtnBackgrn"
+        android:text="Get coordinates"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/calcbtn"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginTop="260dp"
+        android:text="Distance"
+        android:textColor="@color/white"
+        android:background="@color/darkSkyBlue"/>
+
+    <Button
+        android:id="@+id/map"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/mybutton"
+        android:layout_gravity="center|bottom"
+        android:layout_toEndOf="@+id/calcbtn"
+        android:layout_marginTop="260dp"
+        android:text="Location"
+        android:textColor="@color/white"
+        android:background="@color/skyBlue"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+
+    <Button
+        android:id="@+id/weather"
+        android:layout_marginTop="360dp"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center|bottom"
+        android:text="Info weather"
+        android:textColor="@color/white"
+        android:background= "@color/skyBlue" />
+
+
+    <Button
+        android:id="@+id/Guide"
+        android:layout_width="172dp"
+        android:layout_height="100dp"
+        android:layout_alignEnd="@+id/mylist"
+        android:layout_below="@+id/calcbtn"
+        android:layout_gravity="center|bottom"
+        android:onClick="web"
+        android:text="Help"
+        android:textColor="@color/white"
+        android:background="@color/darkSkyBlue"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="7dp"
+        android:layout_marginLeft="100dp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center|bottom"
+        android:onClick="logout"
+        android:text="Logout"
+        android:textColor="@color/white"
+        android:background="@color/logoutColor"
+        android:layout_marginTop="480dp"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="123dp" />
+
+
+
+</RelativeLayout>
