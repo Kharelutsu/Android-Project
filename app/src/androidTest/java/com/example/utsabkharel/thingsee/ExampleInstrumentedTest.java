@@ -1,4 +1,4 @@
-package com.metropolia.bishwasshrestha.thingsee;
+package com.metropolia.utsabkharel.thingsee;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.metropolia.bishwasshrestha.thingsee", appContext.getPackageName());
+        assertEquals("com.metropolia.utsabkharel.thingsee", appContext.getPackageName());
     }
 }
